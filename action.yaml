@@ -1,0 +1,8 @@
+name: 'Hello GitHub Actions'
+description: 'Log the payload of the triggering event'
+outputs:
+  time:
+    description: 'The time'
+runs:
+  using: 'node20'
+  main: 'main.js'
